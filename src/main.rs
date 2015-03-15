@@ -27,7 +27,7 @@ fn main() {
     };
     if let Err(err) = alfred::write_items(io::stdout(), &[
         alfred::ItemBuilder::new(format!("Demangle Swift Symbol '{}'", symbol))
-                            .subtitle(output).into_item()
+                            .subtitle(&output[..]).arg(&output[..]).into_item()
     ]) {
         let _ = writeln!(&mut io::stderr(), "I/O error: {}", err);
         env::set_exit_status(1);
