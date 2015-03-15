@@ -7,7 +7,9 @@
 
 ## Installation
 
-Download the workflow and double-click to open in Alfred.
+[Download][] the workflow and double-click to open in Alfred.
+
+[Download]: https://github.com/kballard/swift-demangle.alfredworkflow/releases/download/v1.0.0/Swift.Demangle.alfredworkflow
 
 ### From Source
 
