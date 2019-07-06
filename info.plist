@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -25,11 +27,13 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Kevin Ballard</string>
+	<string>Lily Ballard</string>
 	<key>description</key>
 	<string>Demangles Swift symbols</string>
 	<key>disabled</key>
@@ -45,17 +49,27 @@
 				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>5C11FAA2-B553-4211-8CE1-909FE68333E7</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -74,6 +88,12 @@
 				<string>Demangling…</string>
 				<key>script</key>
 				<string>./swift-demangle {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
 				<key>title</key>
 				<string>Demangle Swift Symbol '{query}'</string>
 				<key>type</key>
@@ -86,15 +106,32 @@
 			<key>uid</key>
 			<string>783763D8-9846-413A-B796-DBCD06223E45</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.largetype</string>
 			<key>uid</key>
 			<string>337FD6CA-C9EA-4540-8A5C-AF20BBEDF84D</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -103,16 +140,22 @@
 	<dict>
 		<key>337FD6CA-C9EA-4540-8A5C-AF20BBEDF84D</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
 		<key>5C11FAA2-B553-4211-8CE1-909FE68333E7</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>783763D8-9846-413A-B796-DBCD06223E45</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>70</real>
 		</dict>

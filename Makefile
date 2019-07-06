@@ -9,6 +9,10 @@ install: target/release/swift-demangle
 	./alfred-install-workflow/install-workflow.sh target/release/swift-demangle
 .PHONY: install
 
+update-plist:
+	./alfred-install-workflow/install-workflow.sh --update-plist
+.PHONY: update-plist
+
 clean:
 	cargo clean
 .PHONY: clean
